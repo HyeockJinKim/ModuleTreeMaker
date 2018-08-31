@@ -1,3 +1,12 @@
+#include "base/file_check.h"
+#include <iostream>
+#include <sys/stat.h>
+#include <dirent.h>
+
+using namespace std;
+using namespace base;
+
+
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
