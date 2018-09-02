@@ -1,4 +1,6 @@
-#include <algorithm>
+//
+// Created by khz on 18. 8. 31.
+//
 #include <dirent.h>
 #include <string>
 #include <sys/stat.h>
@@ -6,9 +8,6 @@
 #include "file_checker.h"
 
 using namespace std;
-//
-// Created by khz on 18. 8. 31.
-//
 
 namespace base{
 
