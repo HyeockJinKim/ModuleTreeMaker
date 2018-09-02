@@ -12,5 +12,6 @@ using namespace std;
 namespace base {
 bool file_exists(const string& name);
 bool is_dir(const string &dir);
+
 }
 
